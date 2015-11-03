@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <henry_pdfupload>
+      <active>true</active>
+      <codePool>local</codePool>
+    </henry_pdfupload>
+  </modules>
+</config>
