@@ -1,0 +1,25 @@
+{
+  "name": "henry/magento-pdf-upload",
+  "type": "magento-module",
+  "description": "PDF-Format for magento wysiwyg.",
+  "authors": [
+    {
+      "name": "Henry Hirsch"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/magento-hackathon/magento-composer-installer"
+    }
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer":"*"
+  },
+  "extra": {
+    "map": [
+      ["./app/etc/modules/henry_pdfupload.xml", "./app/etc/modules/henry_pdfupload.xml"],
+      ["./app/code/local/henry/pdfupload", "./app/code/local/henry/pdfupload"]
+    ]
+  }
+}
